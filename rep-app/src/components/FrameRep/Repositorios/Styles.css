@@ -1,0 +1,40 @@
+.RepositoriosCont {
+    background-color: rgba(221, 162, 162, 0.514);
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 25px;
+}
+
+.NombreRepCont {
+    width: 60%;
+    display: inline-block;
+}
+
+.RepositorioExtraInfoCont {
+    width: 40%;
+    display: inline-block;
+    line-height: 28px;
+    text-align: left;
+}
+
+.nombre {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 0px;
+    color: #0366d6;
+}
+
+.descripcion {
+    display: block;
+    line-height: 28px;
+    color:#586069;
+    margin-right: 25px;
+}
+
+.fecha {
+    display: block;
+    font-style: italic;
+    line-height: 28px;
+    color:#24292e
+}
