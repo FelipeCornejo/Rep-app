@@ -49,9 +49,9 @@ class FrameRep extends Component {
 //interna (dentro de FrameRep)
 //hardocreado con data2 para previsualizar los cambios
 //la idea es poner un fetch que resuelva la constante url y me entregue la info que pido en getData
-    handleUpdateClick = () => {
-        fetch(url)
-
+    handleUpdateClick = async () => {
+        const data = await axios.get(url)
+        console.log (data)
         console.log ("actualizado");
 
         this.setState({
